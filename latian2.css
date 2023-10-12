@@ -1,0 +1,48 @@
+body{
+    background-image: url("Bg.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+}
+h1{
+    color: #f5f5f5;
+    text-align: center;
+    font-weight:bolder;
+    font-size:50px;
+}
+h3{
+    color: #f5f5f5;
+    font-weight: bold;
+    margin-top: calc(5%);
+}
+p{
+    color: #f5f5f5;
+    font-size:x-large; 
+    margin-left: calc(16%); 
+    margin-right: calc(16%);
+    font-weight: lighter;
+}
+.dwi-posisilogo{
+    text-align:right;
+    object-position: right;
+    margin-top: calc(5%);
+}
+.dwi-editlogo{
+    float: initial; 
+    width: 140px;
+    filter: invert(99%) sepia(0%) saturate(813%) hue-rotate(38deg) brightness(121%) contrast(91%) opacity(70%);
+} 
+.dwi-posisilogo2{
+    margin-top: calc(6%);
+    margin-bottom: calc(10%);
+}
+.dwi-editcol4{
+    text-align: center; 
+    color: #f5f5f5;
+}
+.dwi-editicons{
+    filter:  brightness(210%) contrast(101%);
+    height: 115px;
+}
