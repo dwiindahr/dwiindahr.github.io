@@ -27,10 +27,11 @@ const sr = ScrollReveal({
 });
 sr.reveal('.hero-text', {origin:'top'});
 sr.reveal('.about-img, .service-item, .about-text', {origin:'bottom'});
-sr.reveal('.about-text h2, .text-center, .right-contact h2', {origin:'top'});
+sr.reveal('.about-text h2, .text-center, .right-hire h2', {origin:'top'});
 sr.reveal('.left-hire', {origin:'left'});
 sr.reveal('.right-hire', {origin:'right'});
 sr.reveal('.contact', {origin:'top'});
+sr.reveal('.slideshow-container', {origin:'bottom'});
 
 let slideIndex = 1;
 showSlides(slideIndex);
